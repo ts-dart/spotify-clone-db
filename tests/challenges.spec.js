@@ -231,7 +231,7 @@ describe('Queries de seleção', () => {
     });
   });
 
-  describe.only('4 - Exibe a condicao do usuario se esta ativo ou inativo', () => {
+  describe('4 - Exibe a condicao do usuario se esta ativo ou inativo', () => {
     it('Verifica o desafio 4', async () => {
       const challengeQuery = readFileSync('desafio4.sql', 'utf8');
 
@@ -288,7 +288,7 @@ describe('Queries de seleção', () => {
     });
   });
 
-  describe('7 - Exibe uma relação de todos os álbuns produzidos por cada artista', () => {
+  describe.only('7 - Exibe uma relação de todos os álbuns produzidos por cada artista', () => {
     it('Verifica o desafio 7', async () => {
       const challengeQuery = readFileSync('desafio7.sql', 'utf8');
 
