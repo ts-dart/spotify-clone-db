@@ -269,7 +269,7 @@ describe('Queries de seleção', () => {
     });
   });
 
-  describe('6 - Exibe o relatório de faturamento da empresa', () => {
+  describe.only('6 - Exibe o relatório de faturamento da empresa', () => {
     it('Verifica o desafio 6', async () => {
       const challengeQuery = readFileSync('desafio6.sql', 'utf8');
 
@@ -326,7 +326,7 @@ describe('Queries de seleção', () => {
     });
   });
 
-  describe.only('9 - Exibe a quantidade de músicas que estão presentes atualmente no histórico de reprodução da pessoa usuária Bill', () => {
+  describe('9 - Exibe a quantidade de músicas que estão presentes atualmente no histórico de reprodução da pessoa usuária Bill', () => {
     it('Verifica o desafio 9', async () => {
       const challengeQuery = readFileSync('desafio9.sql', 'utf8');
 
